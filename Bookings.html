@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TurfStar Booking Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TurfStar Booking Panel</h1>
+  <button onclick="logout()">Logout</button>
+
+  <div class="booking-form">
+    <input type="text" id="teamName" placeholder="Team Name">
+    <input type="text" id="mobile" placeholder="Mobile Number">
+    <input type="text" id="parking" placeholder="Parking Details">
+    <select id="hours">
+      <option value="1">1 Hour</option>
+      <option value="2">2 Hours</option>
+      <option value="3">3 Hours</option>
+      <option value="4">4 Hours</option>
+    </select>
+    <input type="time" id="time">
+    <input type="date" id="date">
+    <input type="number" id="advance" placeholder="Advance Payment">
+    <select id="beverages">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <button onclick="saveBooking()">Book Now & Print</button>
+  </div>
+
+  <input type="text" id="searchBox" placeholder="Search by Mobile Number" onkeyup="searchBooking()">
+
+  <table id="bookingTable">
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Mobile</th>
+        <th>Hours</th>
+        <th>Time</th>
+        <th>Date</th>
+        <th>Advance</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+<script src="script.js"></script>
+</body>
+</html>

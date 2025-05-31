@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.booking-form input, select {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #1976D2;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-body {
+  background: #1976D2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.slip-box {
+  padding: 20px;
+  border: 1px solid #333;
+  width: 300px;
+  margin: 20px auto;
+  background: #fff;
+}
